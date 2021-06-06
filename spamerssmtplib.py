@@ -1,10 +1,10 @@
 import smtplib, random
 from random import randint
 
-msg_2 = ["Error ","Error ","Error ","Error ","Error ","Error ","Error ","Error ","Error ","Error ","Error ","Error ","Err ","Decode ","Serialize ","EOF ","Fuct ","Err404 ","Not Found Code ","Code ","Talk Exception ","Reason "]
-email_main = "xx@gmail.com"
-email_to = "xx@gmail.com"
-total_email=300-60
+msg_2 = ["write your message here","you can write another message"]#<< write your message here
+email_main = "xx@gmail.com"#<< imput your gmail here
+email_to = ["xx@gmail.com"]#<< imput your email direction here, you can imput multiple image
+total_email=300#<< total email you want to send / spams
 print("Ongoing send "+str(total_email)+" Emails")
 count = 0
 
