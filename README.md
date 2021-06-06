@@ -12,8 +12,24 @@ To complete this setup, go to the Google's Admin Console, and search for the Les
 
 ![send_mail](https://user-images.githubusercontent.com/82330418/120917747-18bb5600-c6db-11eb-90e3-5878e1c4d5be.jpg)
 
+open spamerssmtplib.py with your favorite code writers
+and imput data in script
+
+1. Imput your message, you can imput multiple message in list format ["1","2","3"]
+>> msg_2 = ["write your message here","you can write another message"]#<< write your message here
+
+2. Imput your email, dont forget to active Less Secure App Access
+>> email_main = "xx@gmail.com"#<< imput your gmail here
+
+3. Imput your reciver, you can imput multiple email in list format ["email@email.com","email2@email.com","email3@email.com"]
+>> email_to = ["xx@gmail.com"]#<< imput your email direction here, you can imput multiple image
+
+4. imput total spams wint format int
+
+>> total_email=300#<< total email you want to send / spams
+
+
 if alredy done, run the script
 
 how to run
-
-python3 smtplipGmail.py
+$ python3 spamerssmtplib.py
