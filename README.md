@@ -31,5 +31,5 @@ and imput data in script
 
 if alredy done, run the script
 
-how to run
-$ python3 spamerssmtplib.py
+# how to run
+python3 spamerssmtplib.py
