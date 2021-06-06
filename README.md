@@ -11,3 +11,9 @@ To allow the access, we need to set 'Less Secure App Access' settings in the goo
 To complete this setup, go to the Google's Admin Console, and search for the Less Secure App setup.
 
 ![send_mail](https://user-images.githubusercontent.com/82330418/120917747-18bb5600-c6db-11eb-90e3-5878e1c4d5be.jpg)
+
+if alredy done, run the script
+
+how to run
+
+python3 smtplipGmail.py
